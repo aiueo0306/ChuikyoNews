@@ -31,7 +31,7 @@ BASE_URL = "http://chuikyo.news/"
 GAKKAI = "中医協ニュース"
 
 SELECTOR_TITLE = "ol.post_list.clearfix li.article.type1.clearfix"
-title_selector = "a"
+title_selector = "a.image"
 title_index = 0
 href_selector = "a.image"
 href_index = 0
