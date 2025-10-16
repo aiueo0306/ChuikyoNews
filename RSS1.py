@@ -88,7 +88,7 @@ with sync_playwright() as p:
             print("ℹ ポップアップ処理をスキップ（POPUP_MODE=0）")
 
         # 本文読み込み
-        page.wait_for_load_state("load", timeout=30000)
+        # page.wait_for_load_state("load", timeout=30000)
 
     except PlaywrightTimeoutError:
         print("⚠ ページの読み込みに失敗しました。")
